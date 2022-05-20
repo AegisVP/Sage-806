@@ -38,7 +38,6 @@ body {
 
 .section__subheader {
   margin: 0;
-  font-weight: 400;
   font-size: 24px;
   line-height: 32px;
 }
@@ -181,7 +180,8 @@ body {
   margin-bottom: 34px;
 }
 
-.why-care__article {
+.why-care__article,
+.negative__article {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -283,6 +283,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  color: #027FC2;
 }
 
 .sell__text {

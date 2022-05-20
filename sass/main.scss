@@ -115,7 +115,8 @@
   margin-bottom: 34px;
 }
 
-.why-care__article {
+.why-care__article,
+.negative__article {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -227,6 +228,7 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  color: $color-text-header-blue;
 }
 
 .sell__text {

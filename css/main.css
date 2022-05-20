@@ -2,10 +2,6 @@ html {
   box-sizing: border-box;
 }
 
-svg {
-  outline: 1px solid teal;
-}
-
 *,
 *::after,
 *::before {
@@ -29,6 +25,10 @@ body {
   background-color: #F4FBFF;
 }
 
+.section--bborder {
+  border-bottom: 1px solid #DDDDDD;
+}
+
 .section__header {
   margin: 0;
   font-weight: 700;
@@ -47,7 +47,6 @@ body {
   width: 1200px;
   padding: 96px 15px;
   margin: 0 auto;
-  outline: 1px solid tomato;
 }
 
 .button {
@@ -55,6 +54,7 @@ body {
   margin: 0;
   padding: 16px 24px;
   font-weight: 500;
+  line-height: 22px;
   text-decoration: none;
   text-transform: uppercase;
   color: #333333;
@@ -89,6 +89,7 @@ body {
 .logo__icon {
   margin: 0 4px 0 0;
   filter: drop-shadow 5px 2px 0 #EDF6FB;
+  text-shadow: 5px 2px 0 #EDF6FB;
 }
 
 .header {
@@ -254,7 +255,6 @@ body {
 .sell__list-item {
   margin: 30px 0;
   display: block;
-  outline: 1px solid tomato;
 }
 
 .sell__article {

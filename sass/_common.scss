@@ -19,7 +19,8 @@ html {
 }
 
 svg {
-  outline: 1px solid teal;
+  // outline: 1px solid teal;
+  // fill: currentColor;
 }
 
 *,
@@ -43,6 +44,10 @@ body {
   &--bgBlue {
     background-color: $color-background-lightblue;
   }
+
+  &--bborder {
+    border-bottom: 1px solid #DDDDDD;
+  }
 }
 
 .section__header {
@@ -64,7 +69,7 @@ body {
   padding: 96px 15px;
   margin: 0 auto;
 
-  outline: 1px solid tomato;
+  // outline: 1px solid tomato;
 }
 
 .button {
@@ -73,6 +78,7 @@ body {
   padding: 16px 24px;
 
   font-weight: 500;
+  line-height: 22px;
   text-decoration: none;
   text-transform: uppercase;
   color: $color-goldbutton-text;

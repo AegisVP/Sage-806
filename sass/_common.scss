@@ -10,13 +10,11 @@ $color-goldbutton-background: linear-gradient(360deg, #F2C453 0%, #FCE3A8 100%);
 
 $color-logo-shadow: #EDF6FB;
 $color-logo: #292929;
+$color-cloud-blue: #51BCF4;
 
 // Proxima Novo - 400, 600, 700
 // Roboto - 400
 
-svg {
-  // outline: 1px solid teal;
-}
 
 html {
   box-sizing: border-box;
@@ -86,11 +84,18 @@ body {
   background: linear-gradient(360deg, #F2C453 0%, #FCE3A8 100%);
   
   &--bgWhite-tBlue {
-      background: none;
-      border: 1px solid $color-accent-blue;
-      background-color: $color-text-white;
-      color: $color-accent-blue;
-    }
+    background: none;
+    border: 1px solid $color-accent-blue;
+    background-color: $color-text-white;
+    color: $color-accent-blue;
+  }
+
+  &--bgBlue-tWhite {
+    background: none;
+    border: 1px solid $color-text-white;
+    background-color: $color-accent-blue;
+    color: $color-text-white;
+  }
 }
 
 .main-text {

@@ -239,12 +239,30 @@
 }
 // #endregion
 
-// #region aaa section
+// #region Automate section
+.automate__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 0 27px;
+}
 
+.automate__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 566px;
+}
+
+.automate__image {
+  max-width: 566px;
+  align-items: center;
+}
 // #endregion
 
-// #region aaa section
-
+// #region automate sell section
+.automate__sell {
+  background-color: $color-background-lightblue;
+}
 // #endregion
 
 // #region aaa section

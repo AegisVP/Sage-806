@@ -293,6 +293,28 @@ body {
   line-height: 32px;
 }
 
+.automate__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 0 27px;
+}
+
+.automate__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 566px;
+}
+
+.automate__image {
+  max-width: 566px;
+  align-items: center;
+}
+
+.automate__sell {
+  background-color: #F4FBFF;
+}
+
 .section__prices {
   background: linear-gradient(180deg, #0181C1 0%, #2DB4D6 100%);
 }

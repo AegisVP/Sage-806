@@ -1,0 +1,93 @@
+$color-accent-blue: #019BD3;
+$color-text-default: #333945;
+$color-text-header-blue: #027FC2;
+$color-text-white: #ffffff;
+$color-background-lightblue: #F4FBFF;
+
+$color-goldbutton-text: #333333;
+$color-goldbutton-border: #CC9932;
+$color-goldbutton-background: linear-gradient(360deg, #F2C453 0%, #FCE3A8 100%);
+
+$color-logo-shadow: #EDF6FB;
+$color-logo: #292929;
+
+// Proxima Novo - 400, 600, 700
+// Roboto - 400
+
+html {
+  box-sizing: border-box;
+}
+
+svg {
+  outline: 1px solid teal;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: $color-text-default;
+}
+
+.section {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  &--bgBlue {
+    background-color: $color-background-lightblue;
+  }
+}
+
+.section__header {
+  margin: 0;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+}
+
+.section__subheader {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.container {
+  width: 1200px;
+  padding: 96px 15px;
+  margin: 0 auto;
+
+  outline: 1px solid tomato;
+}
+
+.button {
+  display: block;
+  margin: 0;
+  padding: 16px 24px;
+
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $color-goldbutton-text;
+  border: 1px solid $color-goldbutton-border;
+  border-radius: 4px;
+  background: linear-gradient(360deg, #F2C453 0%, #FCE3A8 100%);
+  
+  &--bgWhite-tBlue {
+      background: none;
+      border: 1px solid $color-accent-blue;
+      background-color: $color-text-white;
+      color: $color-accent-blue;
+    }
+}
+
+.main-text {
+  margin: 0;
+}

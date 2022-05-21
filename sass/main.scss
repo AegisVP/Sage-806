@@ -8,7 +8,7 @@
   align-items: center;
 
   font-family: 'Arial', sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 25px;
   line-height: 40px;
   color: $color-logo;
@@ -60,7 +60,7 @@
 .hero__header-text {
   font-size: 42px;
   line-height: 1.36;
-  font-weight: 500;
+  font-weight: 600;
   color: $color-text-default;
 
   &--blue {
@@ -294,7 +294,7 @@
 .prices__title {
   margin: 0;
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 42px;
   line-height: 57px;
   text-transform: uppercase;
